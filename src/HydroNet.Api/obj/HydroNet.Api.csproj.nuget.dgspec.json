@@ -1,0 +1,132 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\Endy\\Documents\\Codex\\2026-11-18\\https-visualstudioc408-ai-studio-https-visualstudioc408\\work\\HydroNet.Control\\src\\HydroNet.Api\\HydroNet.Api.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\Endy\\Documents\\Codex\\2026-11-18\\https-visualstudioc408-ai-studio-https-visualstudioc408\\work\\HydroNet.Control\\src\\HydroNet.Api\\HydroNet.Api.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Endy\\Documents\\Codex\\2026-11-18\\https-visualstudioc408-ai-studio-https-visualstudioc408\\work\\HydroNet.Control\\src\\HydroNet.Api\\HydroNet.Api.csproj",
+        "projectName": "HydroNet.Api",
+        "projectPath": "C:\\Users\\Endy\\Documents\\Codex\\2026-11-18\\https-visualstudioc408-ai-studio-https-visualstudioc408\\work\\HydroNet.Control\\src\\HydroNet.Api\\HydroNet.Api.csproj",
+        "packagesPath": "C:\\Users\\Endy\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Endy\\Documents\\Codex\\2026-11-18\\https-visualstudioc408-ai-studio-https-visualstudioc408\\work\\HydroNet.Control\\src\\HydroNet.Api\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Endy\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "C:\\Users\\Endy\\Documents\\Codex\\2026-11-18\\https-visualstudioc408-ai-studio-https-visualstudioc408\\work\\HydroNet.Control\\src\\HydroNet.Core\\HydroNet.Core.csproj": {
+                "projectPath": "C:\\Users\\Endy\\Documents\\Codex\\2026-11-18\\https-visualstudioc408-ai-studio-https-visualstudioc408\\work\\HydroNet.Control\\src\\HydroNet.Core\\HydroNet.Core.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "allWarningsAsErrors": true,
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.428/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Endy\\Documents\\Codex\\2026-11-18\\https-visualstudioc408-ai-studio-https-visualstudioc408\\work\\HydroNet.Control\\src\\HydroNet.Core\\HydroNet.Core.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Endy\\Documents\\Codex\\2026-11-18\\https-visualstudioc408-ai-studio-https-visualstudioc408\\work\\HydroNet.Control\\src\\HydroNet.Core\\HydroNet.Core.csproj",
+        "projectName": "HydroNet.Core",
+        "projectPath": "C:\\Users\\Endy\\Documents\\Codex\\2026-11-18\\https-visualstudioc408-ai-studio-https-visualstudioc408\\work\\HydroNet.Control\\src\\HydroNet.Core\\HydroNet.Core.csproj",
+        "packagesPath": "C:\\Users\\Endy\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Endy\\Documents\\Codex\\2026-11-18\\https-visualstudioc408-ai-studio-https-visualstudioc408\\work\\HydroNet.Control\\src\\HydroNet.Core\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Endy\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.428/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

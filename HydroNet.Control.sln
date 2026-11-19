@@ -1,0 +1,50 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{E39AE201-DD1D-446D-BF2A-ADA326217504}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HydroNet.Core", "src\HydroNet.Core\HydroNet.Core.csproj", "{D2A742E3-DDA8-4A7F-9F18-4B1161BD0DE3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HydroNet.Api", "src\HydroNet.Api\HydroNet.Api.csproj", "{A049E389-56F5-46D4-B0A9-0745D5C2DD69}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HydroNet.Client", "src\HydroNet.Client\HydroNet.Client.csproj", "{A8E5FCAD-E109-47C7-ABC9-8A784445BA0A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{75C2D9B5-F569-4272-AECC-DDFD6F1CAC48}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HydroNet.Tests", "tests\HydroNet.Tests\HydroNet.Tests.csproj", "{C7807DA9-D591-4C23-A05E-EBA0A8B297AD}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D2A742E3-DDA8-4A7F-9F18-4B1161BD0DE3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D2A742E3-DDA8-4A7F-9F18-4B1161BD0DE3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D2A742E3-DDA8-4A7F-9F18-4B1161BD0DE3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D2A742E3-DDA8-4A7F-9F18-4B1161BD0DE3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A049E389-56F5-46D4-B0A9-0745D5C2DD69}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A049E389-56F5-46D4-B0A9-0745D5C2DD69}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A049E389-56F5-46D4-B0A9-0745D5C2DD69}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A049E389-56F5-46D4-B0A9-0745D5C2DD69}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A8E5FCAD-E109-47C7-ABC9-8A784445BA0A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A8E5FCAD-E109-47C7-ABC9-8A784445BA0A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A8E5FCAD-E109-47C7-ABC9-8A784445BA0A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A8E5FCAD-E109-47C7-ABC9-8A784445BA0A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C7807DA9-D591-4C23-A05E-EBA0A8B297AD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C7807DA9-D591-4C23-A05E-EBA0A8B297AD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C7807DA9-D591-4C23-A05E-EBA0A8B297AD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C7807DA9-D591-4C23-A05E-EBA0A8B297AD}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{D2A742E3-DDA8-4A7F-9F18-4B1161BD0DE3} = {E39AE201-DD1D-446D-BF2A-ADA326217504}
+		{A049E389-56F5-46D4-B0A9-0745D5C2DD69} = {E39AE201-DD1D-446D-BF2A-ADA326217504}
+		{A8E5FCAD-E109-47C7-ABC9-8A784445BA0A} = {E39AE201-DD1D-446D-BF2A-ADA326217504}
+		{C7807DA9-D591-4C23-A05E-EBA0A8B297AD} = {75C2D9B5-F569-4272-AECC-DDFD6F1CAC48}
+	EndGlobalSection
+EndGlobal

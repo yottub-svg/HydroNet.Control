@@ -1,0 +1,11 @@
+services:
+  hydronet-api:
+    build: ../src/HydroNet.Api
+    environment:
+      ASPNETCORE_URLS: http://+:8080
+    ports: ["8080:8080"]
+    healthcheck:
+      test: ["CMD", "wget", "-qO-", "http://localhost:8080/health"]
+      interval: 5s
+      timeout: 2s
+      retries: 3

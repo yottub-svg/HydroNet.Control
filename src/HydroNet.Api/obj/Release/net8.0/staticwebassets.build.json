@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "O3UkCVg5jKegOzb60nk3Z+qPzU3e5RyeUJkEbZ+gxKc=",
+  "Source": "HydroNet.Api",
+  "BasePath": "_content/HydroNet.Api",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}
