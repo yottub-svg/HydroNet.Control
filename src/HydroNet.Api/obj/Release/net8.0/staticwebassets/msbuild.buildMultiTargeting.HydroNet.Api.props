@@ -1,3 +1,0 @@
-﻿<Project>
-  <Import Project="..\build\HydroNet.Api.props" />
-</Project>
